@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Home.css'
-import vdo from '../Assets/vdo.mp4'
+// import vdo from '../Assets/vdo.mp4'
 
 
 
@@ -71,7 +71,7 @@ function Home() {
 
             <div className="hero">
                 <video className='bg-video' autoPlay loop muted>
-                    <source src={vdo} type="video/mp4" />
+                    <source src="https://drive.google.com/file/d/1_-wrPv0x6kfSQWk-AkyTBOZ57szo797j/view?usp=share_link" type="video/mp4" />
                 </video>
             </div>
 
